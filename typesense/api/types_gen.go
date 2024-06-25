@@ -868,6 +868,7 @@ type MultiSearchParams struct {
 	TypoTokensThreshold           *int    `form:"typo_tokens_threshold,omitempty" json:"typo_tokens_threshold,omitempty"`
 	UseCache                      *bool   `form:"use_cache,omitempty" json:"use_cache,omitempty"`
 	VectorQuery                   *string `form:"vector_query,omitempty" json:"vector_query,omitempty"`
+	StopwordsSet                   *string `form:"stopwords,omitempty" json:"stopwords,omitempty"`
 }
 
 // TakeSnapshotParams defines parameters for TakeSnapshot.
